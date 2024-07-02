@@ -4,7 +4,6 @@
 Before you begin, ensure you have met the following requirements:
 - [Composer](https://getcomposer.org/download/) installed on your machine
 - [Node.js and npm](https://nodejs.org/) installed on your machine
-- [Git](https://git-scm.com/downloads) installed on your machine
 - [Laravel](https://laravel.com/docs/installation) installed on your machine
 
 ## Cloning the Repository
@@ -18,13 +17,7 @@ Before you begin, ensure you have met the following requirements:
 3. **Run the following command to clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
-    ```
-
-4. **Navigate into the project directory:**
-
-    ```bash
-    cd your-repository
+    git clone https://github.com/SifeYassine/NotesManager.git
     ```
 
 ## Installing Dependencies
@@ -39,15 +32,15 @@ Before you begin, ensure you have met the following requirements:
     ```bash
     npm install
     ```
+3. **Build the project:**
+
+   ```bash
+    npm run build
+    ```    
 
 ## Setting Up Environment Variables
-1. **Copy the example environment file to create your `.env` file:**
 
-    ```bash
-    cp .env.example .env
-    ```
-
-2. **Open the `.env` file in a text editor and set up your database and other environment variables as needed:**
+1. **Open the `.env` file in a text editor and set up your database and other environment variables as needed:**
 
     ```env
     APP_NAME=Laravel
@@ -100,20 +93,7 @@ Before you begin, ensure you have met the following requirements:
     ```
     http://127.0.0.1:8080
     ```
-
-## Building Frontend Assets
-1. **Compile the frontend assets:**
-
-    ```bash
-    npm run dev
-    ```
-
-    For production, use:
-
-    ```bash
-    npm run prod
-    ```
-
+    
 If you encounter any issues, please refer to the [Laravel Documentation](https://laravel.com/docs) or open an issue in the repository.
 
 Happy coding!
