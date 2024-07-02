@@ -4,7 +4,6 @@
 Before you begin, ensure you have met the following requirements:
 - [Composer](https://getcomposer.org/download/) installed on your machine
 - [Node.js and npm](https://nodejs.org/) installed on your machine
-- [Laravel](https://laravel.com/docs/installation) installed on your machine
 
 ## Cloning the Repository
 1. **Open your terminal.**
